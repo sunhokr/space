@@ -1,0 +1,14 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+data/
+runs/
+results/
+demo_output/
+*.npy
+*.npz
+*.dat
+*.cvsar
+*.pt

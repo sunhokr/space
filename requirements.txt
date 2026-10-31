@@ -1,0 +1,17 @@
+# core
+numpy>=1.24
+scipy>=1.10
+torch>=2.1          # GPU build recommended for training (https://pytorch.org/get-started/locally/)
+matplotlib>=3.7
+pillow>=10.0        # JPEG2000 baseline (OpenJPEG is bundled in the Pillow wheels)
+pyyaml>=6.0
+
+# strongly recommended: JIT for the Sentinel-1 L0 decoder, the adaptation and the arithmetic coder
+numba>=0.59
+
+# tests
+pytest>=7
+
+# optional alternatives
+# sentinel1decoder   # alternative (Rust) Sentinel-1 L0 decoding backend: --backend sentinel1decoder
+# glymur             # alternative JPEG2000 backend (needs the OpenJPEG shared library)
